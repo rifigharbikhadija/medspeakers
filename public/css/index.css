@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'BasisGrotesquePro';
+    src: url('/fonts/BasisGrotesquePro-Regular.ttf');
+}
+@font-face {
+    font-family: 'HARRIETTEXTREGULAR';
+    src: url('/fonts/HARRIETTEXTREGULAR.OTF');
+}
+@font-face {
+    font-family: 'Mackay-Bold';
+    src: url('/fonts/Mackay-Bold.otf');
+}
+@font-face {
+    font-family: 'New York Small';
+    src: url('/fonts/FontsFree-Net-NewYorkSmallRegular.ttf');
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('/fonts/FontsFree-Net-SFProText-Regular.ttf');
+}
