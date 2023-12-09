@@ -51,7 +51,7 @@ footer .copyright-text {
     line-height: 140%;
     margin-bottom: 0px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 952px) {
     footer .footer-logo {
         width: 236px;
         margin-bottom: 26px;

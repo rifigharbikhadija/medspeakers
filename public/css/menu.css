@@ -50,7 +50,7 @@ body {
 .nav-style .burger {
     display: none;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 952px) {
     .nav-style {
         height: 65px;
         padding-left: 20px;
