@@ -69,6 +69,7 @@ body {
         margin: 0;
         left: 0px;
         flex-direction: column;
+        height: 100vh;
     }
     .nav-style .menu.open {
         display: block;

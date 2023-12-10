@@ -16,7 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.blog');
 });
-
+Route::get('/article', function () {
+    return view('pages.article');
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

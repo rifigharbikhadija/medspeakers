@@ -1,0 +1,336 @@
+.article-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 110px;
+}
+
+.article-page .full-width-container .banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-page .full-width-container .banner .banner-top {
+    width: 60%;
+    margin: 54px auto auto;
+}
+
+.article-page .full-width-container .banner .banner-top .banner-desc {
+    width: 70%;
+    margin: auto;
+}
+
+.article-page .full-width-container .banner .banner-img {
+    min-width: 100%;
+    margin: 52px auto 32px;
+}
+
+.article-content {
+    margin: auto 106px;
+}
+
+.article-text {
+    color: #000;
+    font-family: 'New York Medium';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 170%;
+    margin-bottom: 52px;
+}
+
+.article-top {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    margin-bottom: 52px;
+}
+
+.article-top .article-top-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.article-top .article-top-left .article-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-img {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.article-top-right {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.article-info p {
+    color: #000;
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+.author-name {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.share-btn {
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+    background-color: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.08);
+    width: 70px;
+    height: 44px;
+}
+
+.share-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.img-caption {
+    color: #000;
+    text-align: center;
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    width: 55%;
+    margin: 12px auto 52px;
+}
+
+.share-btn-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+
+.xl-share-btn {
+    width: 50%;
+    height: 64px;
+    color: #000;
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.xl-share-btn .share-img {
+    margin-right: 16px;
+}
+
+h4 {
+    color: #000;
+    font-family: 'SF Pro Text';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.tags p {
+    color: #0C0C0C;
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.dotted-line {
+    border: none;
+    border-top: 1px dotted #000;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    margin: 34px 0;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.author-info .author-img {
+    margin-right: 24px;
+}
+
+.author-desc {
+    color: #0C0C0C;
+    font-family: 'New York Small' !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.bold {
+    color: #0C0C0C;
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.article-page h2 {
+    margin-top: 40px;
+}
+
+.related-articles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+
+.related-articles .article {
+    width: 33%;
+    box-sizing: border-box;
+    margin-bottom: 44px;
+    padding-right: 14px;
+}
+
+.news-letter-container {
+    border: 1px solid #000;
+    border-top: 12px solid #000;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 50px;
+    width: 50%;
+    margin: 66px auto auto;
+}
+
+.news-letter-container p {
+    color: #090909;
+    text-align: center;
+    font-family: 'SF Pro Text';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 12px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 36px;
+}
+
+.input-container input {
+    border: 1px solid #000;
+    background: #FFF;
+    height: 54px;
+    width: 70%;
+}
+
+.input-container button {
+    background: #000;
+    height: 54px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    width: 30%;
+}
+.autor-position {
+    display: none;
+}
+.separator-container {
+    position: relative;
+}
+.separator-container .separator-img {
+    position: absolute;
+    width: 82px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+@media only screen and (max-width: 952px) {
+    .article-page .full-width-container .banner .banner-top {
+        width: 100%;
+        margin-top: 52px;
+    }
+    .article-page .full-width-container .banner .banner-top .banner-desc {
+        width: 100%;
+    }
+    .article-page .full-width-container .banner .banner-img {
+        margin: 36px auto 24px;
+    }
+    .article-content {
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .article-top {
+        flex-direction: column;
+    }
+    .article-info p {
+        font-size: 13px;
+    }
+    .article-top-right {
+        margin: 24px auto auto;
+    }
+    .article-text {
+        font-size: 16px;
+        margin-bottom: 42px;
+    }
+    h4 {
+        font-size: 26px;
+    }
+    .img-caption {
+        font-size: 13px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 24px;
+    }
+    .xl-share-btn span {
+        display: none;
+    }
+    .autor-position {
+        display: flex;
+        font-family: 'New York Small' !important;
+        font-size: 14px;
+        margin-bottom: 60px;
+    }
+    .author-info {
+        margin-bottom: 0;
+    }
+    .related-articles .article {
+        width: 100%;
+    }
+    .related-articles {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .article-desc {
+        margin: 20px 0;
+    }
+    .news-letter-container {
+        width: 100%;
+        margin: 0;
+    }
+    .news-letter-container {
+        padding: 40px 36px;
+    }
+    .article-page {
+        padding-bottom: 52px;
+    }
+    .separator-container .separator-img {
+        height: 52px;
+        width: auto;
+    }
+}
