@@ -87,4 +87,7 @@ body {
         margin-top: auto;
         margin-bottom: auto;
     }
+    .menu .menu-item.active {
+        border-bottom: none;
+    }
 }

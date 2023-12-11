@@ -8,18 +8,19 @@
     <title>@yield('title', 'Mon Site')</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 
 <body class="antialiased">
     <nav class="nav-style">
-        <img class="logo" src="{{asset('images/logo.png')}}" alt="">
+        <a class="logo" href="/"><img class="logo" src="{{asset('images/logo.png')}}" alt=""></a>
         <ul class="menu">
-            <li class="menu-item"><a class="menu-item-link">Blog</a></li>
-            <li class="menu-item"><a class="menu-item-link">About</a></li>
-            <li class="menu-item"><a class="menu-item-link">Links</a></li>
-            <li class="menu-item"><a class="menu-item-link">Projects</a></li>
+            <li class="menu-item active"><a class="menu-item-link" href="{{ route('articles.index') }}">Blog</a></li>
+            <li class="menu-item"><a class="menu-item-link" href="{{ route('articles.index') }}">About</a></li>
+            <li class="menu-item"><a class="menu-item-link" href="/exemple">Exemple</a></li>
+            <li class="menu-item"><a class="menu-item-link" href="{{ route('articles.index') }}">Projects</a></li>
         </ul>
         <img class="burger" src="{{asset('images/burger.png')}}" alt="">
     </nav>
@@ -50,5 +51,7 @@
         <p class="copyright-text">&copy; 2012–2020 Nordic Rose Co.</p>
         <p class="copyright-text">All rights reserved.</p>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
+
 </html>
